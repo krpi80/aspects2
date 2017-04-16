@@ -1,0 +1,8 @@
+<aspectj>
+    <aspects>
+        <aspect name="com.kfpi.aspects.MyAspect"/>
+    </aspects>
+    <weaver options="-verbose">
+        <include within="com.kfpi.aspects.*"/>
+    </weaver>
+</aspectj>
